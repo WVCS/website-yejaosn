@@ -1,3 +1,35 @@
-body {
-background-color:#FF8200;
+body{
+  background-color:#3BF4FB;
+}
+h1{
+  color:#826AED
+    font-size: 3200%
+    letter-spacing:5px;
+}
+ul{
+  list-style-type: none;
+  background color: #826AED;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  text-align: center;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: 0;
+}
+li{
+  float: right;
+}
+li a{
+  display:block;
+  color: red;
+  text-decoration: none;
+  padding: 15px 50px;
+  border-style: dotted;
+  font-family: cursive, "Lucida Handwriting";
+}
+li a:hover {
+  background-color: antiquewhite;
+  color: blue;
 }
